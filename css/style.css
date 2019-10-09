@@ -3,6 +3,12 @@ html {
   height: 100%;
 }
 
+.centerPosition{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .loginWrapper {
   height: 100%;
   background: url("https://www.idecon.com.tr/wp-content/uploads/2017/12/idecon-bg-22.jpg");
@@ -15,15 +21,21 @@ html {
   border-radius: 5px;
   }
 
+  .logoContainer p{
+    color:#5567A9;
+    font-size:20px;
+    font-weight: bold;
+  }
+
+  .logoContainer{
+    flex-direction: column;
+  }
+
 .logoImg img {
-  width: 150px;
-  height: 171.75px;
+  width: 100px;
 }
 
-.formBorder {
-  border-left: 1px solid #00000017;
-  width: 260px;
-}
+
 
 .form-control::placeholder{
     font-size:12px;
@@ -39,4 +51,57 @@ html {
 
 .forgotPassword{
     line-height: 0;
+    color:#5567a9;
 }
+
+.forgotPassword:hover{
+  line-height: 0;
+  color:#374fa3;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #5567A9 !important;
+  border-color: #5567A9 !important;
+}
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #374fa3 !important;
+    border-color: #384fa2 !important;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: rgb(85, 103, 169) !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(85, 103, 169, 0.35) !important;
+}
+
+.horizantalLine{
+  border:0.5px solid #00000017;
+  height: 250px;
+  
+}
+
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+@media  (max-width: 768px) {
+  
+  .mQueriesDisable {display:none; }
+
+  .loginContainer{
+    flex-direction: column;
+  }
+
+  
+}
+
