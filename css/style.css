@@ -3,8 +3,8 @@ html {
   height: 100%;
 }
 
-.centerPosition{
-  display:flex;
+.centerPosition {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -17,56 +17,55 @@ html {
 }
 
 .loginContainer {
-    background: #ffffffeb;
+  background: #ffffffeb;
   border-radius: 5px;
-  }
+}
 
-  .logoContainer p{
-    color:#5567A9;
-    font-size:20px;
-    font-weight: bold;
-  }
+.logoContainer p {
+  color: #5567a9;
+  font-size: 20px;
+  font-weight: bold;
+}
 
-  .logoContainer{
-    flex-direction: column;
-  }
+.logoContainer {
+  flex-direction: column;
+}
 
 .logoImg img {
   width: 100px;
 }
 
-
-
-.form-control::placeholder{
-    font-size:12px;
+.form-control::placeholder {
+  font-size: 12px;
 }
 
-.form-check-label, .forgotPassword{
-    font-size:14px;
+.form-check-label,
+.forgotPassword {
+  font-size: 14px;
 }
 
-.form-check-input{
-    margin-top: 0.4rem !important;
+.form-check-input {
+  margin-top: 0.4rem !important;
 }
 
-.forgotPassword{
-    line-height: 0;
-    color:#5567a9;
+.forgotPassword {
+  display: inline-block;
+  color: #5567a998;
 }
 
-.forgotPassword:hover{
+.forgotPassword:hover {
   line-height: 0;
-  color:#374fa3;
+  color: #374fa3;
 }
 .btn-primary {
   color: #fff;
-  background-color: #5567A9 !important;
-  border-color: #5567A9 !important;
+  background-color: #5567a9 !important;
+  border-color: #5567a9 !important;
 }
-  .btn-primary:hover {
-    color: #fff;
-    background-color: #374fa3 !important;
-    border-color: #384fa2 !important;
+.btn-primary:hover {
+  color: #fff;
+  background-color: #374fa3 !important;
+  border-color: #384fa2 !important;
 }
 
 .form-control:focus {
@@ -77,31 +76,27 @@ html {
   box-shadow: 0 0 0 0.2rem rgba(85, 103, 169, 0.35) !important;
 }
 
-.horizantalLine{
-  border:0.5px solid #00000017;
+.horizantalLine {
+  border: 0.5px solid #00000017;
   height: 250px;
-  
 }
-
 
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Opera and Firefox */
 }
 
-@media  (max-width: 768px) {
-  
-  .mQueriesDisable {display:none; }
-
-  .loginContainer{
-    flex-direction: column;
+@media (max-width: 768px) {
+  .mQueriesDisable {
+    display: none;
   }
 
-  
+  .loginContainer {
+    flex-direction: column;
+  }
 }
-
